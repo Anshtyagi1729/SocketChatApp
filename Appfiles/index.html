@@ -8,9 +8,19 @@
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
+    <div class="video-background">
+        <video autoplay muted loop id="background-video">
+            <source src="background.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+
     <div class="chat-container">
         <div class="chat-header">
             <h1>Chat App</h1>
+        </div>
+        <div class="chat-description">
+            <p>Welcome to the Chat App! This is a simple, real-time chat application where you can send and receive messages instantly. Enjoy chatting!</p>
         </div>
         <div class="chat-messages" id="messages"></div>
         <div class="chat-input">
